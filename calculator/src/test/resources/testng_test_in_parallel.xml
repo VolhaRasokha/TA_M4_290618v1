@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSimpleCalculatorOperations" parallel="tests" thread-count="16">
+
+    <test name="TestSimpleCalculatorOperations: Sum for Long">
+        <classes>
+            <class name="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01"></class>
+        </classes>
+    </test>
+   <test name="TestSimpleCalculatorOperations: Sum for Double">
+        <classes>
+            <class name="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02"></class>
+        </classes>
+    </test>
+  <test name="TestSimpleCalculatorOperations: Sub for Long">
+        <classes>
+            <class name="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03"/>
+        </classes>
+    </test>
+  <test name="TestSimpleCalculatorOperations: Sub for Double">
+        <classes>
+            <class name="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04"/>
+        </classes>
+    </test>
+</suite>

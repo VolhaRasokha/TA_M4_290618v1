@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSimpleCalculatorOperations">
+              <span class="suite-name border-passed">TestSimpleCalculatorOperations</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSimpleCalculatorOperations">
+                    <span>D:\Volha_Rasokha\ATM2018Q2\calculator\src\test\resources\testng_SimpleCalculatorOperationsSuite</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSimpleCalculatorOperations">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSimpleCalculatorOperations">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSimpleCalculatorOperations">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSimpleCalculatorOperations">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSimpleCalculatorOperations">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSimpleCalculatorOperations">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSimpleCalculatorOperations" class="hide-methods passed suite-TestSimpleCalculatorOperations"> (hide)</a> <!-- hide-methods passed suite-TestSimpleCalculatorOperations -->
+                      <a href="#" panel-name="suite-TestSimpleCalculatorOperations" class="show-methods passed suite-TestSimpleCalculatorOperations"> (show)</a> <!-- show-methods passed suite-TestSimpleCalculatorOperations -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSimpleCalculatorOperations">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(3.7, 1.3, 5)">doubleOnePlusTwoTest(3.7, 1.3, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(0, 0, 0)">doubleOnePlusTwoTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(3.9, -1.3, 2.6)">doubleOnePlusTwoTest(3.9, -1.3, 2.6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(-1.2, -7.3, -8.5)">doubleOnePlusTwoTest(-1.2, -7.3, -8.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(1.1, -1.1, 0)">doubleOnePlusTwoTest(1.1, -1.1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(-1.3, 1.2, -0.1)">doubleOnePlusTwoTest(-1.3, 1.2, -0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02" hash-for-method="doubleOnePlusTwoTest(1.5, 0.6, 2.1)">doubleOnePlusTwoTest(1.5, 0.6, 2.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(2.2, 3.8, -1.6)">doubleOneSubTwoTest(2.2, 3.8, -1.6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(5.6, -4.1, 9.7)">doubleOneSubTwoTest(5.6, -4.1, 9.7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(3.2, 2.1, 1.1)">doubleOneSubTwoTest(3.2, 2.1, 1.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(0, 0, 0)">doubleOneSubTwoTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(-6.3, 3.2, -9.5)">doubleOneSubTwoTest(-6.3, 3.2, -9.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(-7.5, -3.3, -4.2)">doubleOneSubTwoTest(-7.5, -3.3, -4.2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(1.3, 0.3, 1)">doubleOneSubTwoTest(1.3, 0.3, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04" hash-for-method="doubleOneSubTwoTest(4.1, 4.1, 0)">doubleOneSubTwoTest(4.1, 4.1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(3, 3, 6)">longOnePlusTwoTest(3, 3, 6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(-5, -7, -12)">longOnePlusTwoTest(-5, -7, -12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(11, -2, 9)">longOnePlusTwoTest(11, -2, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(-1, 30, 29)">longOnePlusTwoTest(-1, 30, 29)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(10, 25, 35)">longOnePlusTwoTest(10, 25, 35)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(2, -2, 0)">longOnePlusTwoTest(2, -2, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SumLongCalculatorTest_01" hash-for-method="longOnePlusTwoTest(0, 0, 0)">longOnePlusTwoTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(-6, 3, -9)">longOneSubTwoTest(-6, 3, -9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(-7, -3, -4)">longOneSubTwoTest(-7, -3, -4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(3, 4, -1)">longOneSubTwoTest(3, 4, -1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(3, 2, 1)">longOneSubTwoTest(3, 2, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(0, 0, 0)">longOneSubTwoTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(5, -4, 9)">longOneSubTwoTest(5, -4, 9)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSimpleCalculatorOperations" title="com.epam.cdp.calculator.tests.SubLongCalculatorTest_03" hash-for-method="longOneSubTwoTest(4, 4, 0)">longOneSubTwoTest(4, 4, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSimpleCalculatorOperations -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
+        </div> <!-- panel Default_Suite -->
+        <div panel-name="suite-TestSimpleCalculatorOperations" class="panel TestSimpleCalculatorOperations">
+          <div class="suite-TestSimpleCalculatorOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(3, 3, 6)">
+                  </a> <!-- longOnePlusTwoTest(3, 3, 6) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(3, 3, 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(-5, -7, -12)">
+                  </a> <!-- longOnePlusTwoTest(-5, -7, -12) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(-5, -7, -12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(11, -2, 9)">
+                  </a> <!-- longOnePlusTwoTest(11, -2, 9) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(11, -2, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(-1, 30, 29)">
+                  </a> <!-- longOnePlusTwoTest(-1, 30, 29) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(-1, 30, 29)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(10, 25, 35)">
+                  </a> <!-- longOnePlusTwoTest(10, 25, 35) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(10, 25, 35)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(2, -2, 0)">
+                  </a> <!-- longOnePlusTwoTest(2, -2, 0) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(2, -2, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOnePlusTwoTest(0, 0, 0)">
+                  </a> <!-- longOnePlusTwoTest(0, 0, 0) -->
+                  <span class="method-name">longOnePlusTwoTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSimpleCalculatorOperations-class-passed -->
+          <div class="suite-TestSimpleCalculatorOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(-6, 3, -9)">
+                  </a> <!-- longOneSubTwoTest(-6, 3, -9) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(-6, 3, -9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(-7, -3, -4)">
+                  </a> <!-- longOneSubTwoTest(-7, -3, -4) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(-7, -3, -4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(3, 4, -1)">
+                  </a> <!-- longOneSubTwoTest(3, 4, -1) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(3, 4, -1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(3, 2, 1)">
+                  </a> <!-- longOneSubTwoTest(3, 2, 1) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(3, 2, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(0, 0, 0)">
+                  </a> <!-- longOneSubTwoTest(0, 0, 0) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(5, -4, 9)">
+                  </a> <!-- longOneSubTwoTest(5, -4, 9) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(5, -4, 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="longOneSubTwoTest(4, 4, 0)">
+                  </a> <!-- longOneSubTwoTest(4, 4, 0) -->
+                  <span class="method-name">longOneSubTwoTest</span>
+                  <span class="parameters">(4, 4, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSimpleCalculatorOperations-class-passed -->
+          <div class="suite-TestSimpleCalculatorOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(2.2, 3.8, -1.6)">
+                  </a> <!-- doubleOneSubTwoTest(2.2, 3.8, -1.6) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(2.2, 3.8, -1.6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(5.6, -4.1, 9.7)">
+                  </a> <!-- doubleOneSubTwoTest(5.6, -4.1, 9.7) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(5.6, -4.1, 9.7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(3.2, 2.1, 1.1)">
+                  </a> <!-- doubleOneSubTwoTest(3.2, 2.1, 1.1) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(3.2, 2.1, 1.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(0, 0, 0)">
+                  </a> <!-- doubleOneSubTwoTest(0, 0, 0) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(-6.3, 3.2, -9.5)">
+                  </a> <!-- doubleOneSubTwoTest(-6.3, 3.2, -9.5) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(-6.3, 3.2, -9.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(-7.5, -3.3, -4.2)">
+                  </a> <!-- doubleOneSubTwoTest(-7.5, -3.3, -4.2) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(-7.5, -3.3, -4.2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(1.3, 0.3, 1)">
+                  </a> <!-- doubleOneSubTwoTest(1.3, 0.3, 1) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(1.3, 0.3, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOneSubTwoTest(4.1, 4.1, 0)">
+                  </a> <!-- doubleOneSubTwoTest(4.1, 4.1, 0) -->
+                  <span class="method-name">doubleOneSubTwoTest</span>
+                  <span class="parameters">(4.1, 4.1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSimpleCalculatorOperations-class-passed -->
+          <div class="suite-TestSimpleCalculatorOperations-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(3.7, 1.3, 5)">
+                  </a> <!-- doubleOnePlusTwoTest(3.7, 1.3, 5) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(3.7, 1.3, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(0, 0, 0)">
+                  </a> <!-- doubleOnePlusTwoTest(0, 0, 0) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(3.9, -1.3, 2.6)">
+                  </a> <!-- doubleOnePlusTwoTest(3.9, -1.3, 2.6) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(3.9, -1.3, 2.6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(-1.2, -7.3, -8.5)">
+                  </a> <!-- doubleOnePlusTwoTest(-1.2, -7.3, -8.5) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(-1.2, -7.3, -8.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(1.1, -1.1, 0)">
+                  </a> <!-- doubleOnePlusTwoTest(1.1, -1.1, 0) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(1.1, -1.1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(-1.3, 1.2, -0.1)">
+                  </a> <!-- doubleOnePlusTwoTest(-1.3, 1.2, -0.1) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(-1.3, 1.2, -0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doubleOnePlusTwoTest(1.5, 0.6, 2.1)">
+                  </a> <!-- doubleOnePlusTwoTest(1.5, 0.6, 2.1) -->
+                  <span class="method-name">doubleOnePlusTwoTest</span>
+                  <span class="parameters">(1.5, 0.6, 2.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSimpleCalculatorOperations-class-passed -->
+        </div> <!-- panel TestSimpleCalculatorOperations -->
+        <div panel-name="test-xml-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default Suite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/test/resources/testng_SimpleCalculatorOperationsSuite&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Volha_Rasokha\ATM2018Q2\calculator\src\test\resources\testng_SimpleCalculatorOperationsSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSimpleCalculatorOperations&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.epam.cdp.calculator.listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;TestSimpleCalculatorOperations: Sum for Long&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.calculator.tests.SumLongCalculatorTest_01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSimpleCalculatorOperations: Sum for Long --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;TestSimpleCalculatorOperations: Sum for Double&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSimpleCalculatorOperations: Sum for Double --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;TestSimpleCalculatorOperations: Sub for Long&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.calculator.tests.SubLongCalculatorTest_03&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSimpleCalculatorOperations: Sub for Long --&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;TestSimpleCalculatorOperations: Sub for Double&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestSimpleCalculatorOperations: Sub for Double --&gt;
+&lt;/suite&gt; &lt;!-- TestSimpleCalculatorOperations --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSimpleCalculatorOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestSimpleCalculatorOperations: Sum for Long (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestSimpleCalculatorOperations: Sum for Double (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestSimpleCalculatorOperations: Sub for Long (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestSimpleCalculatorOperations: Sub for Double (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSimpleCalculatorOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_Suite');
+function tableData_Default_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+return data;
+}
+              </script>
+              <div id="times-div-Default_Suite">
+              </div> <!-- times-div-Default_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSimpleCalculatorOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSimpleCalculatorOperations');
+function tableData_TestSimpleCalculatorOperations() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'longOnePlusTwoTest')
+data.setCell(0, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(0, 3, 2017);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'longOneSubTwoTest')
+data.setCell(1, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(1, 3, 2017);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doubleOnePlusTwoTest')
+data.setCell(2, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(2, 3, 2015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doubleOneSubTwoTest')
+data.setCell(3, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(3, 3, 2015);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'longOnePlusTwoTest')
+data.setCell(4, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(4, 3, 2002);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doubleOnePlusTwoTest')
+data.setCell(5, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(5, 3, 2002);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doubleOneSubTwoTest')
+data.setCell(6, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(6, 3, 2002);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'longOnePlusTwoTest')
+data.setCell(7, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(7, 3, 2001);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'longOnePlusTwoTest')
+data.setCell(8, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(8, 3, 2001);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'longOnePlusTwoTest')
+data.setCell(9, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(9, 3, 2001);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'doubleOnePlusTwoTest')
+data.setCell(10, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(10, 3, 2001);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'doubleOnePlusTwoTest')
+data.setCell(11, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(11, 3, 2001);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'doubleOnePlusTwoTest')
+data.setCell(12, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(12, 3, 2001);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'doubleOnePlusTwoTest')
+data.setCell(13, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(13, 3, 2001);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'longOneSubTwoTest')
+data.setCell(14, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(14, 3, 2001);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'longOneSubTwoTest')
+data.setCell(15, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(15, 3, 2001);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'longOneSubTwoTest')
+data.setCell(16, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(16, 3, 2001);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'longOneSubTwoTest')
+data.setCell(17, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(17, 3, 2001);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'doubleOneSubTwoTest')
+data.setCell(18, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(18, 3, 2001);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'doubleOneSubTwoTest')
+data.setCell(19, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(19, 3, 2001);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'doubleOneSubTwoTest')
+data.setCell(20, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(20, 3, 2001);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'longOnePlusTwoTest')
+data.setCell(21, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(21, 3, 2000);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'longOnePlusTwoTest')
+data.setCell(22, 2, 'com.epam.cdp.calculator.tests.SumLongCalculatorTest_01')
+data.setCell(22, 3, 2000);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'doubleOnePlusTwoTest')
+data.setCell(23, 2, 'com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02')
+data.setCell(23, 3, 2000);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'longOneSubTwoTest')
+data.setCell(24, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(24, 3, 2000);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'longOneSubTwoTest')
+data.setCell(25, 2, 'com.epam.cdp.calculator.tests.SubLongCalculatorTest_03')
+data.setCell(25, 3, 2000);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'doubleOneSubTwoTest')
+data.setCell(26, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(26, 3, 2000);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'doubleOneSubTwoTest')
+data.setCell(27, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(27, 3, 2000);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'doubleOneSubTwoTest')
+data.setCell(28, 2, 'com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04')
+data.setCell(28, 3, 2000);
+window.suiteTableData['TestSimpleCalculatorOperations']= { tableData: data, tableDiv: 'times-div-TestSimpleCalculatorOperations'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <div id="times-div-TestSimpleCalculatorOperations">
+              </div> <!-- times-div-TestSimpleCalculatorOperations -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSimpleCalculatorOperations</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSimpleCalculatorOperations" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(10, 25, 35)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(1.5, 0.6, 2.1)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(0, 0, 0)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(0, 0, 0)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(3.9, -1.3, 2.6)</span>
+                <span class="method-start">2049 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(3.2, 2.1, 1.1)</span>
+                <span class="method-start">2049 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(11, -2, 9)</span>
+                <span class="method-start">2050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(3, 2, 1)</span>
+                <span class="method-start">2050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(2.2, 3.8, -1.6)</span>
+                <span class="method-start">4050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(0, 0, 0)</span>
+                <span class="method-start">4050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(0, 0, 0)</span>
+                <span class="method-start">4050 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(3, 4, -1)</span>
+                <span class="method-start">4051 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(5.6, -4.1, 9.7)</span>
+                <span class="method-start">6052 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(-1.3, 1.2, -0.1)</span>
+                <span class="method-start">6052 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(-1, 30, 29)</span>
+                <span class="method-start">6052 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(5, -4, 9)</span>
+                <span class="method-start">6053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(-6.3, 3.2, -9.5)</span>
+                <span class="method-start">8053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(-6, 3, -9)</span>
+                <span class="method-start">8053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(-5, -7, -12)</span>
+                <span class="method-start">8053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(-1.2, -7.3, -8.5)</span>
+                <span class="method-start">8053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(2, -2, 0)</span>
+                <span class="method-start">10053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(-7, -3, -4)</span>
+                <span class="method-start">10053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(1.1, -1.1, 0)</span>
+                <span class="method-start">10053 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(-7.5, -3.3, -4.2)</span>
+                <span class="method-start">10054 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOnePlusTwoTest(3.7, 1.3, 5)</span>
+                <span class="method-start">12054 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOneSubTwoTest(4, 4, 0)</span>
+                <span class="method-start">12055 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(4.1, 4.1, 0)</span>
+                <span class="method-start">12055 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">longOnePlusTwoTest(3, 3, 6)</span>
+                <span class="method-start">12055 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumDoubleCalculatorTest_02</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14055 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SumLongCalculatorTest_01</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14056 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doubleOneSubTwoTest(1.3, 0.3, 1)</span>
+                <span class="method-start">14057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubLongCalculatorTest_03</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14057 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.cdp.calculator.tests.SubDoubleCalculatorTest_04</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16057 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
